@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="project.css">
+	<link rel="shortcut icon" href="image/201818.png">
+	<title>M U E W</title>
+</head>
+<body>
+	<div class="botak pl-5">
+      <ul class="navbar navbar-nav navbar-expand-sm" id="navbare" style="float: right; background-color: transparent;">
+      	<li class="nav-item pr-2">
+      		<a href="" class="nav-link text-secondary navs text-light">login</a>
+      	</li>
+      	<li class="nav-item pl-2 pr-5">
+      		<a href="" class="nav-link text-secondary navs text-light">register</a>
+      	</li>
+      </ul>
+		<h1 class="text-light">M U E W</h1>
+	</div>
+	<div class="all" style="background-color: transparent;">
+    <nav class="navbar navbar-expand-sm bg-dark">
+    	<!--<a class="collapse dropdown">-->
+    		<span href="javascript:void(0)" class="navbar-brand" id="li" onclick="list();"><img src="image/menu.png" style="width: 20px;" alt=""></span>
+    		<span href="javascript:void(0)" class="navbar-brand" id="ls" onclick="lis();"></span>
+    	<!-- </a> -->
+      <a href="#" class="navbar-brand text-light">M U E W</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="javascript:void(0)" class="nav-link text-secondary" onclick="news();">News</a>
+        </li>
+        <li class="nav-item">
+          <a href="javascript:void(0)" class="nav-link text-secondary" onclick="anime();">Anime</a>
+        </li>
+        <li class="nav-item">
+          <a href="javascript:void(0)" class="nav-link text-secondary" onclick="film();">Film</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container m-0 pl-0" style="height: 100%;">
+    	<div class="row m-0 pl-0" id="masuk">
+    		<!-- <div class="" id="list" style="position: relative;"></div> -->
+    		<div class="col-9 m-0 pl-5 pt-4 pb-4" id="vid"><h4>Daftar Film</h4><br/><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em>Haruchika</em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em>Haruchika</em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a>
+        </div>
+        <div class="col-3 pt-4" id="out" style="background-color: transparent;">
+          <h3 style="color: grey;">Link Lirik</h3><hr style="background-color: white;">
+          <ul>
+            <li><a href="javascript:void(0)">kazelyrics</a></li>
+            <li><a href="javascript:void(0)">M U E W</a></li>
+          </ul><br><br>
+          <h3 style="color: grey;">Daftar Anime</h3><hr style="background-color: white;">
+          <ul>
+            <li><a href="javascript:void(0)">Kimi no Tzuizou wo Tabetai</a></li>
+            <li><a href="javascript:void(0)">Zetsuen no Tempest</a></li>
+            <li><a href="javascript:void(0)">Kishuku Gakkou no Juliet</a></li>
+            <li><a href="javascript:void(0)">Violet Evergarden</a></li>
+          </ul>
+        </div>
+    	</div>
+    </div>
+    </div>
+    <div class="card-footer bg-dark text-warning">
+    	<div class="card-header mt-0" style="background-color: #2B2B2B"></div>
+    	<p class="p-5">Contact us : <br><br>Utsman Room, no.2, Jl.Jonggol Raya, <br>Emqi Raya, Jonggol, Bogor, Jawa Barat, Indonesia</p><hr style="background-color: white;">
+    	<p class="text-warning pl-5 pr-5 pt-2 pb-1">copyright &copy; 2019 M U E W . All Right Reserved<span class="text-right pop">don't copy</span></p>
+    </div>
+<script>
+	function film(){
+		document.getElementById('vid').innerHTML = '<h4>Daftar Film</h4><br/><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em>Haruchika</em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em>Haruchika</em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a>';
+	}
+	function anime(){
+		document.getElementById('vid').innerHTML = '<h4>Daftar Anime</h4><br/><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em>Haruchika</em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" />';
+	}
+	function list(){
+		document.getElementById('list').innerHTML = '<ul><li>Genre</li><li>Type</li><li>Berak</li></ul>';
+		document.getElementById('li').innerHTML = '';
+		document.getElementById('ls').innerHTML = '<img src="image/menu.png" style="width: 20px;" alt="">';
+		element.classList.add('col-2 m-0 pl-0 pt-2 mr-2');
+		/*changeAttribute()*/
+		/*var x = document.getElementById('list');
+
+		if (x.style.display === 'none') {
+			x.style.display == 'block';
+		} else {
+			x.style.display == 'none';
+		}*/
+	}
+	function lis(){
+		document.getElementById('list').innerHTML = '';
+		document.getElementById('ls').innerHTML = '';
+		document.getElementById('li').innerHTML = '<img src="image/menu.png" style="width: 20px;" alt="">';
+	}
+  function video(){
+    document.getElementById('vid').innerHTML = '<div class="col-9" style="border-right: 2px solid grey;><h2 class="text-warning pt-5">Kishuku Gakkou no Juliet</h2><br /><video controls><source src="video/kanna.mp4"><source src="video/kanna.ogg"></video></div>';
+  }
+</script>
+<script src="libraries/lib.js"></script><!-- Bootstrap JS File v3.3.5
+<script>.video=function(){var a=b.createElement("video"),c=!1;try{if(c=!!a.canPlayType)c=new Boolean(c),c.ogg=a.canPlayType('video/ogg; codecs="theora"').replace(/^no$/,""),c.h264=a.canPlayType('video/mp4; codecs="avc1.42E01E"').replace(/^no$/,""),c.webm=a.canPlayType('video/webm; codecs="vp8, vorbis"').replace(/^no$/,"")}catch(d){}return c},r.audio=function(){var a=b.createElement("audio"),c=!1;try{if(c=!!a.canPlayType)c=new Boolean(c),c.ogg=a.canPlayType('audio/ogg; codecs="vorbis"').replace(/^no$/,"");</script> -->
+	<script src="video.js"></script>
+</body>
+</html>
