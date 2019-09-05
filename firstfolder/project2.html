@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="project.css">
 	<link rel="shortcut icon" href="image/201818.png">
 	<title>M U E W</title>
+  <script src="js/jQuery-3.4.1.min.js"></script>
 </head>
 <body>
 	<div class="botak pl-5">
@@ -39,7 +40,7 @@
     </nav>
     <div class="container m-0 pl-0" style="height: 100%;">
     	<div class="row m-0 pl-0" id="masuk">
-    		<!-- <div class="" id="list" style="position: relative;"></div> -->
+    	<div class="" id="list" style="position: relative;"></div>
     		<div class="col-9 m-0 pl-5 pt-4 pb-4" id="vid"><h4>Daftar Film</h4><br/><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em>Haruchika</em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em>Haruchika</em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a><hr /><a href="javascript:void(0)" onclick="video();"><span class="row"><img src="video/kanna.png" id="gm" alt="" /><h5 class="ml-3 text-secondary"><em></em></h5></span></a>
         </div>
         <div class="col-3 pt-4" id="out" style="background-color: transparent;">
@@ -93,6 +94,14 @@
   function video(){
     document.getElementById('vid').innerHTML = '<div class="col-9" style="border-right: 2px solid grey;><h2 class="text-warning pt-5">Kishuku Gakkou no Juliet</h2><br /><video controls><source src="video/kanna.mp4"><source src="video/kanna.ogg"></video></div>';
   }
+
+
+  $(document).ready(function(){
+    $("a#berakk").on('click', function(event) {
+      event.preventDefault();
+      $("body").fadeOut();
+    })
+  })
 </script>
 <script src="libraries/lib.js"></script><!-- Bootstrap JS File v3.3.5
 <script>.video=function(){var a=b.createElement("video"),c=!1;try{if(c=!!a.canPlayType)c=new Boolean(c),c.ogg=a.canPlayType('video/ogg; codecs="theora"').replace(/^no$/,""),c.h264=a.canPlayType('video/mp4; codecs="avc1.42E01E"').replace(/^no$/,""),c.webm=a.canPlayType('video/webm; codecs="vp8, vorbis"').replace(/^no$/,"")}catch(d){}return c},r.audio=function(){var a=b.createElement("audio"),c=!1;try{if(c=!!a.canPlayType)c=new Boolean(c),c.ogg=a.canPlayType('audio/ogg; codecs="vorbis"').replace(/^no$/,"");</script> -->
