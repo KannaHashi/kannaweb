@@ -1,0 +1,62 @@
+/* .allay {
+	width: 90%;
+	}*/
+body {
+	background-image: url(project/4th.png);
+	background-size: contain;
+	background-repeat: repeat;
+}
+/* .berk {
+	background-color: transparent;
+} */
+.botak {
+	background-image: url(project/kewew.png);
+}
+h1 {
+	padding-top: 99px;
+	padding-bottom: 99px;
+	margin: 0;
+}
+div.anim {
+	padding: 2px;
+ 	float: center;
+	color: white;
+	font-size: 30px;
+	margin-bottom: 20px;
+}	
+video {
+	padding: 10px 20px;
+	float: center;
+	cursor: url(cursor\link.ani);
+	width: 70%;
+	height: auto;
+	border: 10px;
+}
+
+video:hover {
+	padding: 10px 20px;
+	float: center;
+	cursor: url(cursor\cur1088.ani);
+	width: 70%;
+	height: auto;
+}
+#vid {
+	border-left: 2px;
+	border-color: grey;
+}
+#gm {
+	width: 15%;
+	height: auto;
+}
+.pop {
+	float: right;
+}
+#list {
+	background-color: grey;
+}
+.navs {
+	float: right;
+}
+.card-footer {
+	width: 100%;
+}
